@@ -1,6 +1,6 @@
 #TestDesign01.rb
 #First Example in the test design chapter 
-#(C) 2022, Matthew Heusser
+#© 2022, Matthew Heusser
 #
 #-----------------------------------------
  
@@ -10,6 +10,6 @@ name = gets.chomp().downcase()
 if (name == "victor") 
   puts "Congratulations on your win!"
 else
-  puts "hello, " + name + "\n";
+  puts "hello, " + name + "\n\n";
 end
 
