@@ -5,11 +5,11 @@
 #-----------------------------------------
  
 print "Enter your name "
-name = gets.chomp().downcase()
+propername = gets.chomp().downcase()
 
-if (name == "victor") 
+if (propername == "victor") 
   puts "Congratulations on your win!"
 else
-  puts "hello, " + name + "\n\n";
+  puts "hello, " + propername + "\n\n";
 end
 
