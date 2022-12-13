@@ -15,12 +15,13 @@ class Fizzbuzz_02
 
   def calc_individual_buzz_result(input)
     if input % 3 == 0
-      return "Fizz"
+      return "Fizz\n"
     elsif input % 5 == 0
-      return "Buzz"
+      return "Buzz\n"
     else
-      return input.to_s()
+      return input.to_s()+"\n"
     end
+   
   end
 
   #def get_total_result(loop_max)
