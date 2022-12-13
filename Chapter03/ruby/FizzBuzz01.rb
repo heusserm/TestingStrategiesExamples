@@ -1,6 +1,8 @@
 
-puts "FizzBuzz01.rb By Matthew Heusser for the Testing Stratgies book"
-puts "---------------------------------------------------------------"
+puts "FizzBuzz01.rb"
+puts "By Matthew Heusser Matt@xndev.com for the Testing Strategies book"
+puts "-----------------------------------------------------------------"
+
 puts "\n"
 count_to = ARGV[0].to_i;
 
