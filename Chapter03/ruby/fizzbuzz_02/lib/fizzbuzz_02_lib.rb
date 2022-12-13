@@ -10,7 +10,8 @@ class Fizzbuzz_02
     result = "";
     for count in 1..loop_max do
       result = result + calc_individual_buzz_result(count);
-    end  
+    end
+    return result;  
   end
 
   def calc_individual_buzz_result(input)
