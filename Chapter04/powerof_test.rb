@@ -20,3 +20,4 @@ class TestPowerof < MiniTest::Test
   end
 end
 
+
